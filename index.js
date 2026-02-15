@@ -6,7 +6,7 @@ const porta = 3000; // identifica única e exclusivamente uma apliação neste h
 
 const app = express();
 
-//Aqui todo o conteúdo do diretório Views/puvlic estará disponível na raiz do servidor
+//Aqui todo o conteúdo do diretório Views/public estará disponível na raiz do servidor
 app.use(express.static('./Views/public'));
 
 app.listen(porta, host, () => {
